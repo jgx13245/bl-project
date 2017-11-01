@@ -1,0 +1,230 @@
+{
+   "list":[
+        {
+        "type":1,
+        "src":"../list_images/SP_3020_302001180468_01_10006.jpg",
+        "src1":"../list_images/SP_3020_302001454016_01_10006.jpg",
+        "src2":"../list_images/SP_3020_302001460321_01_10006.jpg",
+		"introduce":"飞利浦（PHILIPS）32英寸 32PHF3031/T3 高清窄边LED液晶电视",
+		"price":"3499.0",
+		"fit":"书房",
+		"kind":"平板电视",
+		"self_support":"百联自营",
+		"push":"加入购物车",
+		"sellgood":"在 联想华硕 里 畅销",
+		"text":"加入购物车"
+         },
+         
+         {
+         "type":2,
+       "src":"../down-images/65441130_200x200.jpg",
+       "src1":"../list_images/SP_3020_302001454016_01_10006.jpg",
+        "src2":"../list_images/SP_3020_302001460321_01_10006.jpg",
+		"introduce":"十六盏 海鲜酱饕餮4瓶组合装礼盒 拌饭酱拌面酱下饭酱调味酱",
+		"price": "98.0",
+		"fit":"书房",
+		"kind":"平板电视",
+		"self_support":"百联自营",
+		"push":"加入购物车",
+		"sellgood":"在 联想华硕 里 畅销",
+		"text":"加入购物车"
+         },
+         {
+         "type":3,
+        "src":"../down-images/SP_2000_20000933580001_01_10006.jpg",
+        "src1":"../list_images/SP_3020_302001454016_01_10006.jpg",
+        "src2":"../list_images/SP_3020_302001460321_01_10006.jpg",
+		"introduce":"益达 摇益摇混合口味木糖醇无糖口香糖 98g",
+		"price": "19.0",
+		"fit":"书房",
+		"kind":"平板电视",
+		"self_support":"百联自营",
+		"push":"加入购物车",
+		"sellgood":"在 联想华硕 里 畅销",
+		"text":"加入购物车"
+         },
+         {
+         "type":4,
+        "src":"../down-images/SP_2000_20000399764001_03_10006.jpg",
+        "src1":"../list_images/SP_3020_302001454016_01_10006.jpg",
+        "src2":"../list_images/SP_3020_302001460321_01_10006.jpg",
+		"introduce":"妙洁 塑杯210ML 80只装(亏本大甩卖)",
+		"price": "12.5",
+		"fit":"书房",
+		"kind":"平板电视",
+		"self_support":"百联自营",
+		"push":"加入购物车",
+		"sellgood":"在 联想华硕 里 畅销",
+		"text":"加入购物车"
+         },
+         {
+         "type":5,
+      "src":"../down-images/SP_2000_20001112105001_01_10006.jpg",
+      "src1":"../list_images/SP_3020_302001454016_01_10006.jpg",
+        "src2":"../list_images/SP_3020_302001460321_01_10006.jpg",
+		"introduce":"丹妮丝塔 黄油曲奇饼干 454g 葡萄牙进口",
+		"price": "68.0",
+		"fit":"书房",
+		"kind":"平板电视",
+		"self_support":"百联自营",
+		"push":"加入购物车",
+		"sellgood":"在 联想华硕 里 畅销",
+		"text":"加入购物车"
+         },
+         {
+         "type":6,
+        "src":"../down-images/SP_2000_20000214684001_01_10006.jpg",
+        "src1":"../list_images/SP_3020_302001454016_01_10006.jpg",
+        "src2":"../list_images/SP_3020_302001460321_01_10006.jpg",
+		"introduce":"巧妈妈果町新语优酪果冻 250g",
+		"price": "9.0",
+		"fit":"书房",
+		"kind":"平板电视",
+		"self_support":"百联自营",
+		"push":"加入购物车",
+		"sellgood":"在 联想华硕 里 畅销",
+		"text":"加入购物车"
+         },
+         {
+ 	    "type":7,
+        "src":"../down-images/SP_3020_302000406919_01_10006.jpg",
+        "src1":"../list_images/SP_3020_302001454016_01_10006.jpg",
+        "src2":"../list_images/SP_3020_302001460321_01_10006.jpg",
+		"introduce":"大金（DAIKIN）MC71NV2C-N 加强型 空气清洁器 金色",
+		"price": "91.8",
+		"fit":"卧室",
+		"kind":"生活用品",
+		"self_support":"百联自营",
+		"push":"加入购物车",
+		"sellgood":"在 联想华硕 里 畅销",
+		"text":"加入购物车"
+         },
+          {
+ 	    "type":8,
+        "src":"../down-images/SP_3020_302001386833_01_10006.jpg",
+        "src1":"../list_images/SP_3020_302001454016_01_10006.jpg",
+        "src2":"../list_images/SP_3020_302001460321_01_10006.jpg",
+		"introduce":"格兰仕（Galanz）KWS13E18X-F10M 家用立式多功能电烤箱 18L",
+		"price": "20.0",
+		"fit":"厨房",
+		"kind":"生活用品",
+		"self_support":"百联自营",
+		"push":"加入购物车",
+		"sellgood":"在 联想华硕 里 畅销",
+		"text":"加入购物车"
+         },
+         {
+ 	    "type":9,
+        "src":"../down-images/SP_3020_302001480174_01_10006.jpg",
+        "src1":"../list_images/SP_3020_302001454016_01_10006.jpg",
+        "src2":"../list_images/SP_3020_302001460321_01_10006.jpg",
+		"introduce":"iPad Pro9.7英寸平板电脑 WI-FI 128GB 玫瑰金色 MM192CH/AL",
+		"price": "7220.8",
+		"fit":"手机",
+		"kind":"生活用品",
+		"self_support":"百联自营",
+		"push":"加入购物车",
+		"sellgood":"在 联想华硕 里 畅销",
+		"text":"加入购物车"
+         },
+          {
+ 	    "type":10,
+        "src":"../down-images/SP_2000_20000518125001_01_10006.jpg",
+        "src1":"../list_images/SP_3020_302001454016_01_10006.jpg",
+        "src2":"../list_images/SP_3020_302001460321_01_10006.jpg",
+		"introduce":"维达 棉柔抽取式面纸 200抽×3",
+		"price": "10.0",
+		"fit":"卫生间",
+		"kind":"生活用品",
+		"self_support":"百联自营",
+		"push":"加入购物车",
+		"sellgood":"在 联想华硕 里 畅销",
+		"text":"加入购物车"
+         },
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         {
+         "type":11,
+      	"src":"../down-images/SP_2000_20001112105001_01_10006.jpg",
+		"introduce":"丹妮丝塔 黄油曲奇饼干 454g 葡萄牙进口",
+		"price": "68.0",
+		"fit":"书房",
+		"kind":"平板电视",
+		"self_support":"百联自营",
+		"push":"加入购物车",
+		"sellgood":"在 联想华硕 里 畅销",
+		"text":"加入购物车"
+         },
+         {
+         "type":12,
+        "src":"../down-images/SP_2000_20000214684001_01_10006.jpg",
+		"introduce":"巧妈妈果町新语优酪果冻 250g",
+		"price": "9.0",
+		"fit":"书房",
+		"kind":"平板电视",
+		"self_support":"百联自营",
+		"push":"加入购物车",
+		"sellgood":"在 联想华硕 里 畅销",
+		"text":"加入购物车"
+         },
+         {
+ 	    "type":13,
+        "src":"../down-images/SP_3020_302000406919_01_10006.jpg",
+		"introduce":"大金（DAIKIN）MC71NV2C-N 加强型 空气清洁器 金色",
+		"price": "91.0",
+		"fit":"卧室",
+		"kind":"生活用品",
+		"self_support":"百联自营",
+		"push":"加入购物车",
+		"sellgood":"在 联想华硕 里 畅销",
+		"text":"加入购物车"
+         },
+          {
+ 	    "type":14,
+        "src":"../down-images/SP_3020_302001386833_01_10006.jpg",
+		"introduce":"格兰仕（Galanz）KWS13E18X-F10M 家用立式多功能电烤箱 18L",
+		"price": "20.0",
+		"fit":"厨房",
+		"kind":"生活用品",
+		"self_support":"百联自营",
+		"push":"加入购物车",
+		"sellgood":"在 联想华硕 里 畅销",
+		"text":"加入购物车"
+         },
+         {
+ 	    "type":15,
+        "src":"../down-images/SP_3020_302001480174_01_10006.jpg",
+		"introduce":"iPad Pro9.7英寸平板电脑 WI-FI 128GB 玫瑰金色 MM192CH/AL",
+		"price": "7220.0",
+		"fit":"手机",
+		"kind":"生活用品",
+		"self_support":"百联自营",
+		"push":"加入购物车",
+		"sellgood":"在 联想华硕 里 畅销",
+		"text":"加入购物车"
+         },
+          {
+ 	    "type":16,
+        "src":"../down-images/SP_2000_20000518125001_01_10006.jpg",
+		"introduce":"维达 棉柔抽取式面纸 200抽×3",
+		"price": "10.0",
+		"fit":"卫生间",
+		"kind":"生活用品",
+		"self_support":"百联自营",
+		"push":"加入购物车",
+		"sellgood":"在 联想华硕 里 畅销",
+		"text":"加入购物车"
+         }
+         
+         
+         ]
+}

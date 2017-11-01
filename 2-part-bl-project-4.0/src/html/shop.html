@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>购物车-增删功能实现-冀光鑫</title>
+		<link rel="stylesheet" type="text/css" href="../css/common.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/shop1.css">
+		<script src="../js/jquery-1.11.3.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/cookie.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+<!------------------------------------top-部分------------------------------------------------>
+<div id="top-show">
+	<div id="top">
+			<div class="top_nav"> 
+				<div class="logo">
+					<img class="fl" src="../down-images/bl_logo_m.png" alt="">
+					<p class="fl">百联集团旗下全渠道电商平台</p>
+				</div>
+				<div class="web">
+					<a class="wangz fl" href="#javascript:void">
+						<p>网址导航</p><span></span>
+					</a>
+					<div class="all_net">
+						<span></span>
+						<li><a href="#javascript">百联集团官网</a></li>
+						<li><a href="#javascript">安付宝网</a></li>
+						<li><a href="#javascript">第一医药</a></li>
+						<li><a href="#javascript">OK会员卡专区</a></li>
+					</div> 
+				</div> 
+				<p class='news'><a href="">消息</a></p>
+				<ul>
+					<div class="first" href="#javascript:void">
+						<span></span>
+						<a class="a" href="html/登录页.html">请登录</a>
+						<a href="html/注册页.html">注册</a>
+					</div>
+					<a class="no_span" href="#javascript:void"><p>我的订单</p></a>
+					<div class="a_div a_div_1">
+						<a class="have_span" href="#javascript:void">
+							<li>
+								<p>我的百联</p>
+								<span></span>
+							</li>
+						</a>
+						<div class="My_second" >
+							<a href="#javascript">我的订单</a>
+							<a href="#javascript">我的评价</a>
+							<a href="#javascript">我的积分</a>
+							<a href="#javascript">我的收藏</a>
+							<a href="#javascript">我的优惠券</a>
+						</div> 
+					
+					</div>
+					
+					
+					
+					<div class="a_div a_div_2">
+						<a class="have_span" href="#javascript:void">
+							<li><p>充值缴费</p><span></span></li>
+						</a>
+						<div class="pay_second">
+							<span></span> 
+							<span class="span"></span> 
+							<ul>
+								<h3>水电煤缴费</h3>
+								<a href="#javascript">缴费首页</a>
+								<a href="#javascript">水费缴费</a>
+								<a href="#javascript">电费缴费</a>
+								<a href="#javascript">燃气缴费</a> 
+							</ul> 
+							<ul>
+								<h3>手机充值</h3>
+								<a href="#javascript">手机充值</a>
+								<a href="#javascript">流量充值</a>
+								<a href="#javascript">更多充值</a> 
+							</ul> 
+							<ul>
+								<h3>其他缴费</h3>
+								<a href="#javascript">加油卡充值</a>
+								<a href="#javascript">固话/宽带充值</a>
+								<a href="#javascript">铁通充值</a>
+								<a href="#javascript">有线电视充值</a> 
+							</ul> 
+							<ul>
+								<h3>游戏点卡</h3>
+								<a href="#javascript">腾讯Q币充值</a>
+								<a href="#javascript">盛大点券充值</a>
+								<a href="#javascript">更多游戏</a> 
+							</ul> 
+						</div>
+						
+					</div>
+					<div class="a_div a_div_3">
+						
+						
+						
+						
+						<a class="have_span" href="#javascript:void">
+							<li><p>客户服务</p><span></span></li>
+						</a>
+						<div class="serve_second">
+							<a href="#javascirpt">在线客服</a>
+							<a href="#javascirpt">帮助中心</a>
+						</div> 
+					</div>
+					<div class="a_div a_div_4">
+						<a class="have_span" href="#javascript:void">
+							<li><p>掌上百联</p><span></span></li>
+						</a>
+						<div class="hand_second">
+							<span></span>
+							<span class="span"></span>
+							<a class="fl img" href="#javascript"><img  src="../down-images/weixincode.jpg" alt=""></a>
+							<a href="#javascript">i百联APP</a>
+							<a class="last" href="#javascript">手机购物更方便</a>
+						</div> 
+					</div>
+					<a class="no_span" href="#javascript:void">
+						<p>购物车</p>
+					</a> 
+				</ul>
+			</div>
+			
+			<div class="top_navigation">
+				<a href="../index.html"><img class="logo" src="../down-images/header-logo.png" alt=""></a>
+				<a href="" class="shopingtext">购物车</a>
+				<div class="tn-right">
+					现在<a href="enter.html">登录</a>您购物车中的商品将会被永久保存
+				</div>
+				
+				
+			</div> 
+		</div> 
+	
+</div>	
+<!---------------------------------数据增减设置---------------------------------->
+<div id="data">
+	<div class="data-wrap">
+<table width="1190" border="0" cellpadding="0" cellspacing="0">
+		<thead>
+			<tr>
+				<td>编号</td>
+				<td>&nbsp;图片</td>
+				<td>商品信息</td>
+				<td>单价(元)</td>
+				<td>件数</td>
+				<td>金额（元）</td>
+				<td>操作</td>
+			</tr>
+		</thead>
+		<tbody id="tbody1"></tbody>
+</table>
+	    <div class="bott">
+		<label>
+			<input type="checkbox" id="cb1" />
+			全选
+		</label>
+		<input type="button" value="一键删除" id="btn" />
+		<span>
+			清除失效商品
+		</span>
+		
+		<span>
+			移入收藏夹
+		</span>
+		
+		<span>
+			已选择<i></i>件商品
+		</span>
+		
+		<span>
+			商品金额：<i></i>
+		</span>
+		
+		
+		 <div class="jiesuan">去结算</div>
+		
+		</div>
+	</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<!------------------------------底部=-(公共样式)------------------------------------------>
+		<div id="new_people">
+			<ul class="ul_title">
+				<a href="#javascript:void"><img src="../down-images/footer-icon-1.png">
+					<p>新手入门</p>
+				</a>
+				<a href="#javascript:void"><img src="../down-images/footer-icon-2.png">
+					<p>配送服务</p>
+				</a>
+				<a href="#javascript:void"><img src="../down-images/footer-icon-3.png">
+					<p>支付方式</p>
+				</a>
+				<a href="#javascript:void"><img src="../down-images/footer-icon-4.png">
+					<p>售后服务</p>
+				</a>
+				<a href="#javascript:void"><img src="../down-images/footer-icon-6.png">
+					<p>特色服务</p>
+				</a>
+			</ul>
+			<div class="ul_list">
+				<ul>
+					<a href="#javascript:void">购物流程</a>
+					<a href="#javascript:void">会员介绍</a>
+					<a href="#javascript:void">常见问题</a>
+					<a href="#javascript:void">发票说明</a>
+					<a href="#javascript:void">联系客服</a>
+				</ul>
+				<ul>
+					<a href="#javascript:void">配送范围及运费</a>
+					<a href="#javascript:void">配送进度查询</a>
+					<a href="#javascript:void">自提服务</a>
+					<a href="#javascript:void">商品验货与签收</a>
+				</ul>
+				<ul>
+					<a href="#javascript:void">货到付款</a>
+					<a href="#javascript:void">在线支付</a>
+				</ul>
+				<ul>
+					<a href="#javascript:void">退换货政策</a>
+					<a href="#javascript:void">退换货流程</a>
+					<a href="#javascript:void">退款说明</a>
+				</ul>
+				<ul>
+					<a href="#javascript:void">优鲜集市</a>
+					<a href="#javascript:void">生鲜随心订</a>
+					<a href="#javascript:void">精选篮筐</a>
+					<a href="#javascript:void">全球购</a>
+					<a href="#javascript:void">精品闪购</a>
+					<a href="#javascript:void">百联到家</a>
+				</ul>
+			</div>
+		</div>
+		<div id="bottom">
+			<ul class="ul_1">
+				<li>
+					<a href="#javascript:void">关于我们</a>
+				</li>
+				<li>
+					<a href="#javascript:void">联系我们</a>
+				</li>
+				<li>
+					<a href="#javascript:void">加盟合作</a>
+				</li>
+				<li>
+					<a href="#javascript:void">诚征英才</a>
+				</li>
+				<li>
+					<a href="#javascript:void">友情链接</a>
+				</li>
+			</ul>
+			</br>
+			<ul class="ul_2">
+				<li>
+					<a href="#javascript:void">百联集团有限公司旗下 上海百联全渠道电子商务有限公司版权所有</a>
+				</li>
+				<li>
+					<a href="#javascript:void">客服电话:400-900-8800</a>
+				</li>
+				<li>
+					<a href="#javascript:void">沪ICP备15028847号</a>
+				</li>
+			</ul>
+			</br>
+			<a class="change" href="#javascript">
+				<p>互联网药品信息服务资质证书编号:沪-(非营业性)-2016-0044</p>
+				</br>
+			</a>
+			<ul class="ul_3">
+				<li><img src="../down-images/gongan.png" alt=""><span>沪公网安备31010102002366</span></li>
+				<li><img src="../down-images/wangjing.png" alt=""><span>网购大家评</span></li>
+				<li><strong><img src="../down-images/gongs.png" alt=""></strong><span>上海工商</span></li>
+			</ul>
+		</div>
+		</div>
+
+
+	</body>
+</html>
+<script src="../js/shop.js" type="text/javascript" charset="utf-8"></script>

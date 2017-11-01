@@ -1,0 +1,42 @@
+body, dl, dd, h1, h2, h3, h4, h5, h6, p, form {margin:0}
+ol,li,ul,input, textarea, select,button,del,ins,table,td,tr,th{margin:0; padding:0;}
+table {	border-collapse:collapse;border-spacing:0;}
+img {border:0;outline:none;}
+li{	list-style:none;}
+h1, h2, h3, h4, h5, h6 ,input, textarea, select {font-size: 100%;}
+textarea{overflow:auto;resize:none;} 
+s,i,em{text-decoration:none; font-style:normal;}
+.clearfix{ clear: both;*zoom:1;}
+.clearfix:after{display:block; content:" "; height:0; clear:both; visibility:hidden;}
+a,area{outline:0;border:none;outline:none;}
+body, button, input, select, textarea, label{
+	font:12px/150% arial,'Hiragino Sans GB',SimSun,tahoma,sans-serif;
+	+font-family: 'SimSun';
+	outline:0;
+} 
+body{	
+	height:auto;
+}
+.w1200 .wrap{
+	width:1190px;
+	margin:0 auto;
+}
+.w960 .wrap{
+	width:950px;
+	margin:0 auto;
+}
+a:link,a:visited{
+	color:#666666;
+	text-decoration:none;
+}
+a:hover{
+	color:#111111;
+}
+.w1200 .footer{
+	clear:both;
+	padding-top:30px;
+}
+.w960 .footer{
+	clear:both;
+	padding-top:30px;
+}

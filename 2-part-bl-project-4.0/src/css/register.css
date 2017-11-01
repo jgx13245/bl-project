@@ -1,0 +1,199 @@
+/*-=-----------------------body的背景色----------------*/
+
+body {
+	background: #f9f9f8;
+}
+/*---------------百联-用户注册---------------------*/
+.top {
+	width: 950px;
+	height: 110px;
+	
+	margin: 0 auto;
+	margin-top: 10px;
+	overflow: hidden;
+	line-height: 140px;
+}
+
+.top ul li {
+	float: left;
+	margin-right: 30px;
+	height: 140px;
+	line-height: 140px;
+	
+}
+.top ul li:nth-of-type(3){
+	line-height: 100px;
+}
+.top ul li p{
+	font-size: 22px;
+}
+
+/*-----------注册的表单---------------------*/
+.wrap{
+	width:950px;
+	height:700px;
+	border:1px solid #e1dfda;
+	overflow: hidden;
+	margin:0 auto;
+	margin-bottom:20px;
+	background: #fff;
+}
+.wrap .nin{
+	width:950px;
+	height:52px;
+	border:1px solid #e1dfda;
+	background: #fff;
+}
+.wrap .nin p:nth-of-type(1){
+	width:200px;
+	height:52px;
+	float:left;
+	text-align: center;
+	line-height: 52px;
+	color:#f00;
+}
+.wrap .nin p:nth-of-type(2){
+	width:200px;
+	height:52px;
+	float:right;
+	text-align: center;
+	line-height: 52px;
+	font-size:12px;
+}
+.wrap .nin p:nth-of-type(2) a{
+	color:#0088cc; 
+	margin-left:5px;
+}
+
+
+
+/*-------------------里面的表单------------------------*/
+
+.register_wrap_2{
+	padding-left:225px;
+	padding-top:60px;
+}
+.register_wrap_2 div{
+	position: relative;
+	height: 36px;
+	width: 458px;
+	float:left;
+	margin-bottom:20px;
+}
+.register_wrap_2 div li{
+	position: absolute;
+	left:425px;
+	top:0px;
+	width:270px;
+	height: 36px;
+	line-height: 36px;
+	font-size:12px;
+	display: none;
+
+}
+ .register_wrap_2 div li img{
+ 	 padding-top:10px;
+	float:left;
+	padding-right:10px;
+ }
+.register_wrap_2 div p{
+	text-align:right;
+	width: 105px;
+	float:left;
+	height: 36px;
+	line-height: 36px;
+	color:#f99;
+	font-size: 14px;
+	padding-right:9px;
+}
+ .register_wrap_2 div p span{
+ 	color:#000;
+ 	font-size:14px;
+ }
+  .register_wrap_2 div .inp1{
+	width:268px;
+	height: 34px;
+	padding-left:30px;
+	border:1px solid #ddd;
+	font-size: 12px;
+	border-radius:5px;
+	float: left; 
+}
+ .register_wrap_2 div .inp2{
+ 	height: 34px;
+ 	width: 168px;
+ 	padding-left:30px;
+ 	font-size:12px;
+ 	border:1px solid #ddd;
+ 	border-radius:5px;
+
+}
+ .register_wrap_2 div .auth_img{ 
+  	float: right;
+  	width: 90px;
+  	height: 36px; 
+}
+ .register_wrap_2 div .auth_img img{
+ 	height: 100%;
+ 	width:100%;
+ }
+.register_wrap_2 div .change{
+	padding-left:10px;
+	float:right;
+	color:#57b5da;
+	padding-top:10px;
+	font-size:12px;
+	text-decoration:underline; 
+}
+.register_wrap_2 div .message_btn{
+	float: right;
+	margin-right: 45px;
+	width: 88px;
+	height: 34px;
+	border:1px solid #ddd;
+	margin-left: 5px;
+	background:#f5f5f5;
+	font-size: 12px;
+	color:#000;
+	line-height: 34px;
+	text-align:center;
+}
+.register_wrap_2 .agree{
+	padding-left:115px;
+	font-size: 12px;
+	margin-bottom:0;
+	height: 24px
+}
+.register_wrap_2 .agree .check{
+	width: 12px;
+	height:12px;
+	float: left; 
+	margin-right: 20px;
+ 	 
+	border: 1px solid #ddd;
+	 
+}
+.register_wrap_2 .agree .check img{
+	float:left; 
+}
+.register_wrap_2 .agree .sp a:last-child{
+	color:#666;
+}
+.register_wrap_2 .agree .xieyi{
+	color:#0088ca;
+}
+.register_wrap_2 .suc{
+	float:left; 
+	height: 36px;
+	width:300px;
+	background: #e6133c;
+	margin-left:115px;
+	font-size: 18px;
+	color:#fff;
+	line-height: 36px;
+	text-align: center;
+
+}
+
+
+
